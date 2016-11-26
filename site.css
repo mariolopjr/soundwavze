@@ -1,0 +1,9 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    background-image: $background-img;
+    background-size: $background-size;
+    background-repeat: $background-repeat;
+    height: 100vh;
+    width: 100vw;
+}
