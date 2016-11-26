@@ -1,2 +1,2 @@
 # sounwavze
-Site content for soundwavze.com
+Site content for sounwavze.com
