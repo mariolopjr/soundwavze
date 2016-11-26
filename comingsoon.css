@@ -1,9 +1,84 @@
+html, body{
+  -webkit-font-smoothing: antialiased;
+  background: #222;
+  margin: 0;
+}
 .cs-background {
+  height: 95vh;
+  object-fit: cover;
+  object-position: center;
+  width: 100vw;
   position: fixed;
-  left: -158.5px;
-  top: 0px;
-  width: 1641px;
-  height: 1094px;
-  bottom: auto;
-  right: auto;
+}
+.title {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  top: 40vh;
+  margin-top: -0.5em;
+  width: 100vw;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: lighter;
+  color: #fff;
+  transition: color 0.07s;
+}
+.intro {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  top: 45vh;
+  width: 100vw;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+}
+.container {
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+}
+.line {
+  z-index: 99;
+  position: relative;
+  margin-top: 1px;
+  width: 100vw;
+  height: 1px;
+  left: 0;
+  background: rgba(30,30,30,1);
+}
+.footer {
+  display: inline-block;
+  position: fixed;
+  margin-left: 15px;
+  margin-right: -15px;
+  padding: 10px;
+  top: 95.7vh;
+  width: 100vw;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: #fff;
+}
+.footer > a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer > a:active,
+.footer > a:focus,
+.footer > a:hover {
+  background-color: #999;
+  color: #333;
+  text-decoration: none;
+}
+.footer > a > img {
+  height: 16px;
+  line-height: 18px;
+  vertical-align: -1px;
+  width: 16px;
 }
