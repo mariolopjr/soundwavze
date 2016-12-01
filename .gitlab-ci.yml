@@ -9,6 +9,6 @@ production:
       - public/
   environment:
     name: production
-    url: sounwavze.techmunchies.net
+    url: https://sounwavze.techmunchies.net
   only:
     - master@techmunchies/sounwavze.com
