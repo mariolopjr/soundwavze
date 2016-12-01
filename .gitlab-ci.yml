@@ -1,3 +1,6 @@
+stages:
+  - deploy
+
 pages:
   stage: deploy
   script:
@@ -11,4 +14,4 @@ pages:
     name: production
     url: https://sounwavze.techmunchies.net
   only:
-    - master@techmunchies/sounwavze.com
+    - master@techmunchies-site/sounwavze.com
