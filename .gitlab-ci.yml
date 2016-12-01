@@ -14,4 +14,4 @@ pages:
     name: production
     url: https://sounwavze.techmunchies.net
   only:
-    - master@techmunchies-site/sounwavze.com
+    - master@techmunchies-sites/sounwavze.com
