@@ -4,7 +4,7 @@ html, body{
   margin: 0;
 }
 .cs-background {
-  height: 95vh;
+  height: 300px;
   object-fit: cover;
   object-position: center;
   width: 100vw;
@@ -14,11 +14,11 @@ html, body{
   display: inline-block;
   position: fixed;
   text-align: center;
-  top: 40vh;
+  top: 75px;
   margin-top: -0.5em;
   width: 100vw;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 52px;
   font-weight: lighter;
   color: #fff;
   transition: color 0.07s;
@@ -27,21 +27,22 @@ html, body{
   display: inline-block;
   position: fixed;
   text-align: center;
-  top: 45vh;
+  top: 95px;
   width: 100vw;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 400;
   color: #fff;
 }
-.container {
-  z-index: 99;
-  position: fixed;
-  left: 0;
-  top: 0;
+.about {
+  display: inline-block;
+  position: relative;
+  text-align: center;
   width: 100vw;
-  height: 95vh;
-  overflow: hidden;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
 }
 .line {
   z-index: 99;
