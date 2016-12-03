@@ -158,7 +158,12 @@ html, body{
   opacity: 1;
   transform: translateY(60);
 }
-.why-us {
+.visible-section > div:first-of-type {
+  opacity: 1;
+  transform: translateY(60);
+}
+.events {
+  background-color: #171717;
   display: block;
   text-align: center;
   margin: 0;
@@ -168,11 +173,31 @@ html, body{
   font-weight: 500;
   color: #fff;
 }
+.events-container {
+  padding: 30px 50px;
+}
+.event {
+  display: inline-block;
+  padding: 8px 15px;
+  width: 350px;
+}
+.event > .venue-name {
+  color: #4a8bee;
+  display: block;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.event > .venue-date-location {
+  color: #b6b6b6;
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+}
 .footer {
   display: inline-block;
   margin-left: 15px;
   margin-right: -15px;
-  margin-bottom: 10px;
+  padding: 20px 15px;
   font-size: 18px;
   font-weight: lighter;
   color: #fff;
@@ -193,6 +218,10 @@ html, body{
   line-height: 18px;
   vertical-align: -1px;
   width: 16px;
+}
+.to-top {
+  color: #489C48;
+  font-size: 32px;
 }
 @media screen and (max-width: 600px) {
   .title {
