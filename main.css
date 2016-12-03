@@ -114,7 +114,7 @@ html, body{
 }
 
 .about > .dj-container > .dj > .dj-info {
-  max-width: 750px;
+  max-width: 900px;
   text-align: left;
 }
 .about > .dj-container > .dj > .dj-info > .dj-name,
@@ -132,6 +132,17 @@ html, body{
 .about > .dj-container > .dj:hover > .dj-info > .dj-name,
 .about > .dj-container > .dj:hover > .dj-info > .dj-description {
   color: #999;
+}
+.about > .dj-container > .dj > .dj-info > .dj-social {
+  font-size: 24px;
+}
+.about > .dj-container > .dj > .dj-info > .dj-social > a i {
+  color: #fff;
+  margin-right: 5px;
+}
+.about > .dj-container > .dj > .dj-info > .dj-social > a i:hover {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
 }
 .why-us {
   display: block;
