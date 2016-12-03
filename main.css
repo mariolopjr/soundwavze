@@ -61,7 +61,7 @@ html, body{
   margin-bottom: 13px;
 }
 .jumbo {
-  padding: 140px 0 130px;
+  padding: 220px 0 180px;
   margin: 0;
   background-image: url("images/background.jpg");
   position: relative;
@@ -74,7 +74,7 @@ html, body{
 .title {
   display: inline-block;
   text-align: center;
-  margin: 45px 0 10px;
+  margin: 95px 0 10px;
   width: 100vw;
   font-size: 52px;
   font-weight: lighter;
@@ -94,11 +94,37 @@ html, body{
   display: block;
   text-align: center;
   margin: 0;
-  padding: 60px 0 60px;
+  padding: 45px 0 60px;
   width: 100vw;
   font-size: 54px;
   font-weight: 500;
   color: #fff;
+}
+.about > .dj-container {
+  padding: 30px 150px;
+}
+.about > .dj-container > .dj {
+  padding: 8px 0;
+}
+.about > .dj-container > .dj > img {
+  float:left;
+}
+
+.about > .dj-container > .dj > .dj-info {
+  max-width: 500px;
+  text-align: left;
+}
+.about > .dj-container > .dj > .dj-info > .dj-name,
+.about > .dj-container > .dj > .dj-info > .dj-description {
+  color: #666;
+  display: block;
+  padding: 10px 0 10px 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about > .dj-container > .dj:hover > .dj-info > .dj-name,
+.about > .dj-container > .dj:hover > .dj-info > .dj-description {
+  color: #999;
 }
 .line {
   z-index: 99;
