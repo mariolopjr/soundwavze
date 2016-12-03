@@ -30,6 +30,9 @@ html, body{
   margin: 0 15px;
   padding: 0;
 }
+.nav > .nav-menu > ul:last-child {
+  margin: 0;
+}
 .nav > .nav-menu > ul > li a {
   color: #fff;
   display: inline-block;
@@ -58,7 +61,7 @@ html, body{
   margin-bottom: 13px;
 }
 .jumbo {
-  padding: 110px 0 103px;
+  padding: 140px 0 130px;
   margin: 0;
   background-image: url("images/background.jpg");
   position: relative;
@@ -110,8 +113,6 @@ html, body{
   display: inline-block;
   margin-left: 15px;
   margin-right: -15px;
-  top: 96.5vh;
-  width: 100vw;
   font-size: 18px;
   font-weight: lighter;
   color: #fff;
@@ -135,17 +136,14 @@ html, body{
 }
 @media screen and (max-width: 600px) {
   .title {
-    top: 40vh;
     font-size: 50px;
   }
   .intro {
-    top: 43vh;
     font-size: 28px;
   }
   .footer {
     margin-left: 10px;
     font-size: 15px;
-    top: 96vh;
   }
   .footer > a > img {
     height: 12px;
