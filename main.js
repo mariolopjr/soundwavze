@@ -13,6 +13,21 @@ $(function() {
   });
 });
 
+// Check position of scroll, and if it's greater than 150px, remove the hidden
+// class from the to-top button
+$(function() {
+  return $(window).on('scroll', function() {
+    var yPos = $(window).scrollTop();
+
+  	if (yPos >= 150) {
+  		$('.to-top').removeClass('hidden');
+  	}
+  	else {
+  		$('.to-top').addClass('hidden');
+  	}
+  });
+});
+
 // Checks if an element is in the viewport
 var isElementInViewport = function($e, yPos) {
 
@@ -45,4 +60,9 @@ $(function() {
       }
     });
   });
+});
+
+// Execute when clicking on the back to top button
+$(".to-top").on('click', function () {
+  $("html, body").animate({scrollTop: 0}, 1000);
 });
