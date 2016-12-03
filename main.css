@@ -69,6 +69,7 @@ html, body{
   background-origin: padding-box;
   background-size: cover;
   background-position: center;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
   width: 100vw;
 }
 .title {
@@ -104,41 +105,49 @@ html, body{
   padding: 30px 150px;
 }
 .about > .dj-container > .dj {
+  min-height: 150px;
   padding: 8px 0;
 }
 .about > .dj-container > .dj > img {
   float:left;
+  margin-right: 20px;
 }
 
 .about > .dj-container > .dj > .dj-info {
-  max-width: 500px;
+  max-width: 750px;
   text-align: left;
 }
 .about > .dj-container > .dj > .dj-info > .dj-name,
 .about > .dj-container > .dj > .dj-info > .dj-description {
   color: #666;
   display: block;
-  padding: 10px 0 10px 30px;
+  padding: 5px 0 5px 30px;
   font-size: 16px;
   font-weight: 400;
+}
+.about > .dj-container > .dj > .dj-info > .dj-name {
+  color: #999;
+  font-size: 24px;
 }
 .about > .dj-container > .dj:hover > .dj-info > .dj-name,
 .about > .dj-container > .dj:hover > .dj-info > .dj-description {
   color: #999;
 }
-.line {
-  z-index: 99;
-  position: relative;
-  margin-top: 1px;
+.why-us {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 45px 0 60px;
   width: 100vw;
-  height: 1px;
-  left: 0;
-  background: rgba(30,30,30,1);
+  font-size: 54px;
+  font-weight: 500;
+  color: #fff;
 }
 .footer {
   display: inline-block;
   margin-left: 15px;
   margin-right: -15px;
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: lighter;
   color: #fff;
