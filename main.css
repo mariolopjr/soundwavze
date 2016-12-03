@@ -144,6 +144,20 @@ html, body{
   -webkit-animation: fa-spin 2s infinite linear;
   animation: fa-spin 2s infinite linear;
 }
+.hidden-section > .section-title {
+  opacity: 0;
+  transform: translateY(60);
+  transition: .25s ease-in-out;
+}
+.hidden-section > div:first-of-type {
+  opacity: 0;
+  transform: translateY(60);
+  transition: .8s .2s ease-in-out;
+}
+.visible-section > .section-title {
+  opacity: 1;
+  transform: translateY(60);
+}
 .why-us {
   display: block;
   text-align: center;
