@@ -222,6 +222,7 @@ html, body{
 .to-top {
   color: #489C48;
   font-size: 32px;
+  display: none;
 }
 @media screen and (max-width: 600px) {
   .title {
